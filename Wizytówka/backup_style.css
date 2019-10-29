@@ -1,0 +1,45 @@
+/* Reset default box model properties */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Flexbox layout */
+.container {
+  border: 10px solid red;
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+
+}
+
+.header {
+  background-color: green;
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+
+}
+
+#image {
+  background-color: greenyellow;
+  flex: 0 0 150px;
+}
+
+#name {
+  flex: 1 1 auto;
+}
+
+.sidebar {
+  background-color: grey;
+  flex: 0 0 150px;
+  height: 80vh;
+
+
+}
+
+.main {
+  background-color: khaki;
+  flex: 1 1 auto;
+
+}
