@@ -15,6 +15,11 @@
 /* Fonts */
 h1 {
   font-size: 30px;
+  font-family: "Impact", sans-serif;
+}
+
+p, h3, .wrapper h1 {
+  font-family: "Roboto", sans-serif;
 }
 
 p {
@@ -72,7 +77,7 @@ p {
 .header #title {
   flex: 1 1 auto;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 5px;
   background-image: url("wood_texture.jpg");
   background-origin: border-box;
   background-size: contain;
@@ -169,8 +174,7 @@ p {
 }
 
 .social_media img {
-  min-height: 100%;
-  max-height: 100%;
+  height: 5vw;
   width: auto;
 }
 
@@ -248,26 +252,28 @@ p {
   }
 
   .wrapper .content {
-    height: auto;
-  }
-
-  .wrapper .sidebar {
-    flex: 0 0 70px;
-
-  }
-
-  .content {
-    height: auto;
+    max-height: max-content;
     overflow: hidden;
   }
 
   .wrapper .sidebar {
-    height: auto;
+    flex: 0 0 70px;
     flex-direction: row;
+
   }
+
+  .sidebar .social_media {
+    width: 15vw;
+    height: auto;}
 
   .container {
     height: auto;
-    /*overflow-y: scroll;*/
   }
+}
+
+@media all and (max-width: 400px) {
+  .header #title h1 { 
+    font-size: 20px; 
+  }
+
 }
