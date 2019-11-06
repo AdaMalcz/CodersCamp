@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"> 
-    <title>About me</title> 
+    <title>Tile me</title> 
     <meta name="description" content="My first website.">
     <meta name="keywords" content="Coders Camp, 2019, CodersCrew">
     <meta name="author" content="Adam Malczewski"> 
@@ -18,25 +18,218 @@
       <header class="header">
           
         <div id="image">
-          <img src="zakazana_morda.jpg" alt="Profile picture">
+          <a href="index.html"><img src="profile_picture.jpg" alt="Profile picture" title="Home Page"></a>
         </div>
         
-        <div id="name">
-          <h1>Adam Malczewski</h1>
+        <div id="title">
+          <h1><span class="underscore">Tile</span> me something about yourself <span class="showup">- in a simple way</span></h1>
         </div>
           
       </header>
 
 
-      <aside class="sidebar">
-        <p>side</p>
+      <div class="wrapper">
+        <aside class="sidebar">
+          <div class="social_media"><a href="https://www.facebook.com/adam.malczewski.549" title="Facebook" target="_blank"><img src="social_facebook.jpg"></a></div>
+          <div class="social_media"><a href="https://www.linkedin.com/in/AdaMalcz" title="LinkedIn" target="_blank"><img src="social_linkedin.jpg"></a></div>
+          <div class="social_media"><a href="https://bitbucket.org/AdaMalcz/" title="BitBucket" target="_blank"><img src="social_bitbucket.jpg"></a></div>
+          <div class="social_media"><a href="" title="Send me an e-mail"><img src="social_gmail.jpg"></a></div> <!-- link to subpage with contact form -->
+          <div class="social_media"><a href="" title="Call me"><img src="social_phone.jpg"></a></div> <!-- link to subpage with contact form -->
+        </aside>
+  
+        <main class="content"> <!-- tiles images from https://pixabay.com/ -->
+          
+          <section class="info">
+            <header><h1>Tile me - means to tell something using tiles</h1></header>
+            <br>
+            <p>Hi there!</p>
+            <p>My name is Adam and I love simplicity. There is no simpler way to describe somebody, than using pictures.</p>
+            <p>So that is the way I would like to present myself. Below, you will find some tiles describing my person by symbolic pictures. These tiles are grouped into thematic sections. I can bet that you could tell something about me just by looking at them. If you wish to know me better, just hover over selected tile. Some of them will get you to subpages of my website.</p>
+            <br>
+            <p>If you like the idea, feel free to contact me by the social media icons. And maybe you will tile me something about yourself too? :)</p>
 
-      </aside>
+          </section>
 
-      <main class="content">
-        <p>content</p>
+          <br><br>
+          
+          <section class="about">
+            <header><h1>About me</h1></header>
+            <br>
+            <div class="tiles_container">
+              
+              <div class="tile about_me" id="poland">
+                <img src="poland.jpg" alt="Polish flag">
+                <div class="title about_title">
+                  <h3>COUNTRY</h3>
+                  <br>
+                  <p>I come from Poland, the most beautiful country in the world.</p>
+                </div>
+              </div>
+  
+              <div class="tile about_me" id="graduated">
+                <img src="graduated.jpg" alt="Graduate cap">
+                <div class="title about_title">
+                  <h3>EDUCATION</h3>
+                  <br>
+                  <p>I am graduated student with the MSc degree in Biomedical Engineering.</p>
+                </div>
+              </div>
+              
+              <div class="tile about_me" id="night">
+                <img src="night_owl.jpg" alt="Night owl"> <!-- picture from https://cdn.aarp.net/content/dam/aarp/health/healthy-living/2019/01/1140-morning-night-owl.imgcache.rev8010a2cd98911a593ad805997eb5e1f8.jpg-->
+                <div class="title about_title">
+                  <h3>LIFESTYLE</h3>
+                  <br>
+                  <p>I am definitely an Night Owl. My brain awakes after the sunset.</p>
+                </div>
+              </div>
 
-      </main>
+            </div>
+          </section>
+
+          <br><br>
+
+          <section class="hobbies">
+            <header><h1>Hobbies</h1></header>
+            <br>
+            <div class="tiles_container">
+              
+              <div class="tile hobby" id="mountains">
+                <img src="mountains.jpg" alt="Mountain">
+                <div class="title hobby_title">
+                  <h3>MOUNTAINS</h3>
+                  <br>
+                  <p>I love mountains and hiking tours. The highest mountain I conquered was polish Rysy.</p>
+                </div>
+              </div>
+
+              <div class="tile hobby" id="board_games">
+                <img src="board_games.jpg" alt="Borad game">
+                <div class="title hobby_title">
+                  <h3>BOARD GAMES</h3>
+                  <br>
+                  <p>I enjoy playing board games with my friends. My favorite one is Talisman.</p>
+                </div>
+              </div>
+            
+              <div class="tile hobby" id="programming">
+                <img src="programming.jpg" alt="Programming">
+                <div class="title hobby_title">
+                  <h3>PROGRAMMING</h3>
+                  <br>
+                  <p>Coding is my newest hobby. It gives me a lot of satisfaction.</p>
+                </div>
+              </div>
+
+              <div class="tile hobby" id="festivals">
+                <img src="music_festivals.jpg" alt="Music festival">
+                <div class="title hobby_title">
+                  <h3>MUSIC FESTIVALS</h3>
+                  <br>
+                  <p>Summer is the best season, becouse it is a season of music festivals! Our polish "Woodstock" (aka Pol'and'Rock festival) is my number one.</p>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <br><br>
+
+          <section class="skills">
+            <header><h1>Skills</h1></header>
+            <br>
+            <div class="tiles_container">
+              
+              <div class="tile skill" id="HTML">
+                <img src="symbol_html.jpg" alt="HTML symbol">
+                <div class="title skill_title">
+                  <p>HTML</p>
+                  <img src="stars_2.jpg">
+                </div>
+              </div>
+              
+              <div class="tile skill" id="CSS">
+                <img src="symbol_css.jpg" alt="CSS symbol">
+                <div class="title skill_title">
+                  <p>CSS</p>
+                  <img src="stars_2.jpg">
+                </div>
+              </div>
+              
+              <div class="tile skill" id="JavaScript">
+                <img src="symbol_javascript.jpg" alt="JavaScript symbol">
+                <div class="title skill_title">
+                  <p>Java Script</p>
+                  <img src="stars_1.jpg">
+                </div>
+              </div>
+             
+              <div class="tile skill" id="PHP">
+                <img src="symbol_php.jpg" alt="PHP symbol">
+                <div class="title skill_title">
+                  <p>PHP</p>
+                  <img src="stars_1.jpg">
+                </div>
+              </div>
+              
+              <div class="tile skill" id="Python">
+                <img src="symbol_python.jpg" alt="Python symbol">
+                <div class="title skill_title">
+                  <p>Python</p>
+                  <img src="stars_3.jpg">
+                </div>
+              </div>
+              
+              <div class="tile skill" id="C_sharp">
+                <img src="symbol_csharp.jpg" alt="C_sharp symbol">
+                <div class="title skill_title">
+                  <p>C#</p>
+                  <img src="stars_1.jpg">
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <br><br>
+
+          <section class="favorites">
+            <header><h1>Favorites</h1></header>
+            <br>
+            <div class="tiles_container">
+
+              <div class="tile favorite" id="fav_color">
+                <img src="blue.jpg" alt="Color blue">
+                <div class="title favorites_title">
+                  <h3>COLOR</h3>
+                  <br>
+                  <p>My favorite color is blue. As you can propably guess on the basis of website look ;).</p>
+                </div>
+              </div>
+
+              <div class="tile favorite" id="fav_food">
+                <img src="rice_curry.jpg" alt="Rice with curry">
+                <div class="title favorites_title">
+                  <h3>FOOD</h3>
+                  <br>
+                  <p>Asian cuisine rocks! My favorite meal is rice with curry.</p>
+                </div>
+              </div>
+
+              <div class="tile favorite" id="fav_music">
+                <img src="reggae.jpg" alt="Rasta colors">
+                <div class="title favorites_title">
+                  <h3>MUSIC</h3>
+                  <br>
+                  <p>Reggae plays in my heart sience I remember.</p>
+                </div>
+              </div>
+
+            </div>
+          </section>
+          
+        </main>
+      </div>
 
     </div>
   </body>
